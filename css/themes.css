@@ -1,0 +1,36 @@
+* {
+  --header-bg-color: hsla(var(--main-hue), 70%, 70%, 1.0);
+  --header-text-color: hsla(var(--main-hue), 75%, 100%, 1.0);
+  --nav-bg-color: hsla(var(--main-hue), 75%, 75%, 1.0);
+  --nav-text-color: hsla(var(--main-hue), 75%, 100%, 1.0);
+  --nav-bg-hover-color: hsla(var(--main-hue), 75%, 65%, 1.0);
+  --nav-text-hover-color: hsla(var(--main-hue), 75%, 20%, 1.0);
+  --container-bg-color: hsla(var(--main-hue), 50%, 95%, 1.0);
+  --content-text-color: hsla(var(--main-hue), 50%, 50%, 1.0);
+  --popup-bg-color: hsla(var(--main-hue), 50%, 95%, 1.0);
+  --popup-bg-transp-color: hsla(var(--main-hue), 0%, 50%, 0.5); 
+  --popup-border-color: hsla(var(--main-hue), 50%, 50%, 1.0);
+  --popup-text-color: hsla(var(--main-hue), 50%, 50%, 1.0);
+  --popup-shadow-color: hsla(var(--main-hue), 0%, 10%, 1.0);
+  --popup-bg-hover-color: hsla(var(--main-hue), 38%, 95%, 1.0);
+  --popup-border-hover-color: hsla(var(--main-hue), 38%, 50%, 1.0);
+  --popup-text-hover-color: hsla(var(--main-hue), 38%, 50%, 1.0);
+  --title-color: hsla(--main-hue, 50%, 20%, 1.0);
+  --footer-bg-color: hsla(var(--main-hue), 0%, 60%, 1.0);
+  --footer-text-color: hsla(var(--main-hue), 60%, 100%, 1.0);
+  --button-text-color: hsla(var(--main-hue), 50%, 20%, 1.0);
+}
+
+*[theme="light"] {
+  --main-hue: 210;
+}
+
+*[theme='dark'] {
+  --main-hue: 110;
+  filter: invert(0.5) brightness(0.8);
+}
+
+*[theme='green'] {
+  --main-hue: 120;
+//  filter: invert(1.5) brightness(0.5);
+}

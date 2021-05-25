@@ -1,0 +1,29 @@
+.ml-container[data=ml-app] {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.ml-header[data=ml-app] {
+    padding: 1rem;
+    background: var(--header-bg-color);
+    color: var(--header-text-color);
+    display: flex;
+    align-items: center;
+}
+
+.ml-logo[data=ml-app] {
+    cursor: pointer;
+}
+
+.ml-main {
+    flex-grow: 1;
+}
+
+.ml-footer[data=ml-app] {
+    padding: 1rem;
+    background: var(--footer-bg-color);
+    color: var(--footer-text-color);
+    display: flex;
+    align-items: center;
+}

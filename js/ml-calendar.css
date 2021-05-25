@@ -1,0 +1,45 @@
+.calendar-box[data=ml-calendar] {
+font-weight: normal;
+color: #222222;
+position: relative;
+}
+
+.calendar__button__show[data=ml-calendar] {
+margin: 1rem;
+padding: 0.5rem 1rem;
+background: transparent;
+color: inherit;
+cursor: pointer;
+border: 1px solid #EBEBEB;
+border-radius: 3px;
+transition: color 0.4s;
+transition: background 0.4s;
+}
+
+.calendar__button__show[data=ml-calendar]:hover {
+background: #5B5B5B;
+color: white;
+transition: color 0.4s;
+transition: background 0.4s;
+}
+
+.calendar[data=ml-calendar] {
+padding: 8px;
+border: 1px solid #EBEBEB;
+
+position: absolute;
+top: 100%;
+left: 0;
+z-index: 100;
+}
+
+.calendar__data__cell[data=ml-calendar] {
+padding: 4px;
+text-align: center;
+border: 1px solid #EBEBEB;
+cursor: pointer;
+}
+
+.calendar__data__cell[data=ml-calendar]:hover {
+background: #EBEBEB;
+}
